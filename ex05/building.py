@@ -1,5 +1,6 @@
 import sys
 
+
 def readInput() -> str:
     while True:
         try:
@@ -8,6 +9,7 @@ def readInput() -> str:
             break
     print(line)
     return line
+
 
 def main():
     """

@@ -1,7 +1,9 @@
 import sys
 
+
 def is_odd(number: int) -> bool:
     return (number % 2 == 1)
+
 
 def main():
     try:
@@ -17,7 +19,7 @@ def main():
             print("I'm Odd")
         else:
             print("I'm Even")
-        
+
     except AssertionError as err:
         print(AssertionError.__name__ + ':', err)
 

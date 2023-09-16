@@ -47,18 +47,18 @@ def convertToMorse(s: str):
     print(" ".join(res))
 
 
-
 def main():
     try:
         assert len(sys.argv) == 2, "the arguments are bad"
         for c in sys.argv[1]:
-            if c.isalnum() == False and c != ' ':
+            if c.isalnum() is False and c != ' ':
                 raise AssertionError("the arguments are bad")
-        
+
         convertToMorse(sys.argv[1].upper())
 
     except AssertionError as err:
         print(AssertionError.__name__ + ":", err)
+
 
 if __name__ == "__main__":
     main()
