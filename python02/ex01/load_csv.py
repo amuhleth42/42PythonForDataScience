@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 
-def load(path: str) -> pd.core.frame.DataFrame:
+def load(path: str):
     """
     docstring
     """
