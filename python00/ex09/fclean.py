@@ -8,5 +8,6 @@ def uninstall():
     os.system("rm -rf ft_package/__pycache__")
     os.system("pip3 uninstall ft_package")
 
+
 if __name__ == "__main__":
     uninstall()

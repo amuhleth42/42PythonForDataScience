@@ -1,7 +1,10 @@
 import numpy as np
 
 
-def give_bmi(height: list[int | float], weight: list[int | float]) -> list[int | float]:
+def give_bmi(
+    height: list[int | float],
+    weight: list[int | float]
+) -> list[int | float]:
     """
     docstring
     """
@@ -23,4 +26,3 @@ def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:
         return res
     except Exception as err:
         print("Error:", err)
-

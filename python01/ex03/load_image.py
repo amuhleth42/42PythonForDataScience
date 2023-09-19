@@ -9,7 +9,9 @@ def ft_load(path: str):
     """
     try:
         s = path.lower()
-        assert s.endswith("jpg") or s.endswith("jpeg"), "File format not supported"
+        assert (
+            s.endswith("jpg") or s.endswith("jpeg")
+        ), "File format not supported"
         assert os.path.exists(path), "Path not found"
         print(path)
         img = Image.open(path)

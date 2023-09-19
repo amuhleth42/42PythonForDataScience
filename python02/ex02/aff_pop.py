@@ -9,7 +9,7 @@ def parse_as_float(s: str) -> str:
         return float(s[:-1]) * 1e3
     else:
         return float(s)
-    
+
 
 def main():
     df = load("population_total.csv")

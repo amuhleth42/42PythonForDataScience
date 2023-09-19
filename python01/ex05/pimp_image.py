@@ -18,7 +18,6 @@ def ft_red(array) -> np.ndarray:
     return red
 
 
-
 def ft_green(array) -> np.ndarray:
     """
     Isolate the green values of image received
