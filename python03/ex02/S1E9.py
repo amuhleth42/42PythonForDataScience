@@ -13,12 +13,11 @@ class Character(ABC):
         """docstring for die method in Character class"""
         pass
 
-    def __repr__(self):
+    def __str__(self):
         return f"Vector: ({self.family_name}, {self.eyes}, {self.hairs})"
     
-
-    def __str__(self):
-        return self.__repr__()
+    def __repr__(self):
+        return self.__str__()
 
 
 class Stark(Character):
