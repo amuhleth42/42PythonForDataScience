@@ -22,7 +22,6 @@ def main():
 
         yticks = list(range(100, 801, 100))
         yticks_values = [x * 1000000 for x in yticks]
-        print(yticks)
         plt.plot(years, swiss, label="Switzerland")
         plt.plot(years, nigeria, label="Nigeria")
         plt.title("Population Projections")
